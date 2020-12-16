@@ -2,7 +2,7 @@
 
 ## Website Description
 
-This website gives image examples and helpful tips on subjects such as Online workspace optimization and Social Media marketing
+This website is The start and barebones of my personal portfolio for the future and was built to practice using Bootstrap.
 
 ## Getting Started
 
@@ -37,41 +37,38 @@ View on Visual Studio Code
 
 ## Deployed Link
 
-* [See Live Site](https://hudsonmbarnes.github.io/refactoring-html/)
+* [See Live Site](https://hudsonmbarnes.github.io/bootstrap/)
 
 ## What I did
 
-Within the HTML, I checked for anything unessessary and removed if so, added the missing alt tags to all images, made sure all links were functional and corrected them if not, and added semantic HTML elements.
-Within the Stylesheet, I made sure the classes matched the updated HTML elements, made sure everything wasin sequential order, grouped together classes with the same attributes, and removed any unessessary classes.
-This was all to help with functionality for now and the future as well as organization.
+I created 3 HTML files for the about me, portfolio, and contact sections.
 
 ## Code Snippet
 
+This part of the code is resposible for the navbar seen at the top of all the screens. All tabs go to their respected location.
+
 ```
-<head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
-</head>
-<!-- Added semantic element "header" -->
-<body>
-    <header>
-        <!-- Removed unessessary span tag and class in header -->
-        <h1>Horiseon</h1>
-        <div>
-            <ul>
-                <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
-                </li>
-                <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
-                </li>
-                <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
-                </li>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Hudson Barnes</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
             </ul>
+          </div>
         </div>
-    </header>
+      </nav>
 
 ```
 
@@ -84,7 +81,7 @@ This was all to help with functionality for now and the future as well as organi
 
 ## Authors
 
-* **Horiseon Social Solution Services, Inc.** 
+* **Hudson Barnes** 
 
 
 ## License
