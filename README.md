@@ -33,6 +33,7 @@ View on Visual Studio Code
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [Bootstrap](https://getbootstrap.com/)
 
 ## Deployed Link
 
